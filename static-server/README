@@ -1,0 +1,6 @@
+In this folder you will find a script to run the server that serves the PatrIoT React App.
+It uses https for connections. 
+
+build folder (that you get by running "npm run build" command) should be placed in this folder.
+
+

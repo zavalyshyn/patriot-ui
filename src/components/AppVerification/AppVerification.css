@@ -1,0 +1,107 @@
+/*.success {*/
+/*    background: #00A551;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+.logo img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+.smiley img {
+    /*margin-top: 145px;*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.result {
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* font:  18px/22px Montserrat SemiBold; */
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+.conf-holder {
+    margin-top: 50px;
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.cancel-holder {
+    margin-top: 25px;
+    width: 97px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+#conflink {
+    display:block;
+    height: 100%;
+    width:100%;
+    text-decoration: none;
+}
+
+#conftext {
+    /*display: block;*/
+    text-align: center;
+    /* font:  14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    /* width: 168px; */
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#arrow-right {
+    margin-left: 15px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#polbuttontext {
+    /*display: block;*/
+    text-align: center;
+    /* font: SemiBold 14px/18px Montserrat; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    /* width: 144px; */
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#polbuttonimage {
+    margin-left: 15px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 440px) {
+
+    .result {
+        /*width: 222px;*/
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}

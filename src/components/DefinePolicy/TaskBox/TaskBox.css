@@ -1,0 +1,24 @@
+.task {
+    margin-top: 40px;
+    min-width: 238px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step {
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #00A551;
+}
+
+.instruction {
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+}

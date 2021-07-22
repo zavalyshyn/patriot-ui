@@ -1,0 +1,153 @@
+#appicon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    width: 100px;
+
+}
+
+.appname {
+    text-align: center;
+    /* font: 18px/22px Montserrat SemiBold; */
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #00A551;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.appdescription {
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    /*font-size: 14px;*/
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.appconfig {
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    /*font-size: 14px;*/
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.internetAccessConfig {
+    height: 59px;
+    /*width: auto;*/
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none; /* important */
+
+    /* appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* text styling */
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 58px;
+    color: #00A551;
+
+    display: block;
+
+    /* box shadow */
+    -webkit-box-shadow: 0px 3px 20px #00000029;
+    -moz-box-shadow: 0px 3px 20px #00000029;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.deviceAccess {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.verifybutton {
+    background: #00A551 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 7px;
+    opacity: 1;
+
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+    line-height: 58px;
+    display: block;
+
+    text-decoration: none; /* no underline for a link */
+}
+
+.cancelbutton {
+    text-align: center;
+    text-decoration: underline;
+    /* font: 14px/18px Montserrat SemiBold ; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 440px) {
+
+    .appdescription {
+        width: auto;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .verifybutton {
+        width: auto;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .appconfig {
+        width: auto;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+}

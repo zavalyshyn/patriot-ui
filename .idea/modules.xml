@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/patriot-react.iml" filepath="$PROJECT_DIR$/.idea/patriot-react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../patriotappsapi/.idea/patriotappsapi.iml" filepath="$PROJECT_DIR$/../patriotappsapi/.idea/patriotappsapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../patriotuserapi/.idea/patriotuserapi.iml" filepath="$PROJECT_DIR$/../patriotuserapi/.idea/patriotuserapi.iml" />
+    </modules>
+  </component>
+</project>

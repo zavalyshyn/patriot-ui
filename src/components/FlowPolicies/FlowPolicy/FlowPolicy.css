@@ -1,0 +1,260 @@
+.policydiv {
+    display: block;
+}
+
+.elements {
+    height: 94px;
+    line-height: 94px;
+    margin-left:auto;
+    margin-right:auto;
+    display: table;
+    table-layout: fixed;
+}
+
+span {
+    text-align: center;
+    line-height: 19px;
+    display:block;
+    vertical-align:middle;
+}
+
+.flowelement {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 2px solid #00A551;
+    border-radius: 7px;
+    opacity: 1;
+
+    width: 135px;
+    /*height: 94px;*/
+
+    display: table-cell;
+    /*display: inline-block;*/
+
+    /*line-height: 14px;*/
+    /*text-align: center;*/
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    vertical-align: middle;
+
+    word-break: break-word;
+}
+
+.exceptionDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*.flowelement {*/
+/*    background: #FFFFFF 0% 0% no-repeat padding-box;*/
+/*    box-shadow: 0px 3px 20px #00000029;*/
+/*    border: 2px solid #00A551;*/
+/*    border-radius: 7px;*/
+/*    opacity: 1;*/
+
+/*    width: 135px;*/
+/*    height: 94px;*/
+
+/*    display: inline-block;*/
+
+/*    line-height: 94px;*/
+/*    !*text-align: center;*!*/
+
+/*    font-size: 14px;*/
+/*    font-weight: 600;*/
+/*    letter-spacing: 0;*/
+/*    vertical-align: middle;*/
+
+/*    word-break: break-word;*/
+/*}*/
+
+.greentext {
+    color: #00A551;
+}
+
+.vl {
+    display: inline-block;
+    left: 50%;
+    border-top: 2px solid green;
+    width: 20px;
+}
+
+.buttonsdiv {
+    width: auto;
+    max-width: 300px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+.editbutton {
+    background: #00A551 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 7px;
+    opacity: 1;
+
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+    line-height: 40px;
+    text-decoration: none; /* no underline */
+
+    float: left;
+}
+
+.removebutton {
+    background: #E05E37 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 7px;
+    opacity: 1;
+
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    /* font: 14px/18px Montserrat SemiBold; */
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+    line-height: 40px;
+    text-decoration: none; /* no underline */
+
+    float: right;
+}
+
+
+@media screen and (max-width: 440px) {
+
+    .policydiv {
+        /*display: block;*/
+        width: auto;
+        margin-left:25px;
+        margin-right:25px;
+    }
+
+    .elements {
+        width: 100%;
+    }
+
+    span {
+        line-height: 19px;
+        display: inline-block;
+        vertical-align:middle;
+    }
+
+    .flowelement {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 20px #00000029;
+        border: 2px solid #00A551;
+        border-radius: 7px;
+        opacity: 1;
+
+        width: auto;
+        /*max-width: 600px;*/
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: block;
+
+        line-height: 58px;
+        text-align: center;
+
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        vertical-align: middle;
+    }
+
+    .greentext {
+        color: #00A551;
+    }
+
+    .vl {
+        position: absolute;
+        left: 50%;
+        border-left: 2px solid green;
+        border-top: none;
+        height: 20px;
+
+    }
+
+    .buttonsdiv {
+        width: auto;
+        max-width: 600px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 58px;
+    }
+
+    .editbutton {
+        background: #00A551 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 20px #00000029;
+        border-radius: 7px;
+        opacity: 1;
+
+        width: 45%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
+        /* font: 14px/18px Montserrat SemiBold; */
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #FFFFFF;
+
+        line-height: 58px;
+        text-decoration: none; /* no underline */
+
+        float: left;
+    }
+
+    .removebutton {
+        background: #E05E37 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 20px #00000029;
+        border-radius: 7px;
+        opacity: 1;
+
+        width: 45%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
+        /* font: 14px/18px Montserrat SemiBold; */
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #FFFFFF;
+
+        line-height: 58px;
+        text-decoration: none; /* no underline */
+
+        float: right;
+    }
+
+    .policydiv {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
